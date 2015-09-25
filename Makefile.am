@@ -24,9 +24,9 @@ schema_DATA = $(schema_in_files:.schemas.in=.schemas)
 CLEAN_FILES = $(schema_DATA) $(desktop_DATA)
 
 install-data-local:
-      	if test -z "$(DESTDIR)" ; then \
-        for p in $(schema_DATA) ; do \
-        GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/$$p; \
-        done \
-        fi
+	if test -z "$(DESTDIR)" ; then \
+	for p in $(schema_DATA) ; do \
+	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/$$p; \
+	done \
+	fi
 

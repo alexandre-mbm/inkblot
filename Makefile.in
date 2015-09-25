@@ -716,11 +716,11 @@ uninstall-am: uninstall-desktopDATA uninstall-schemaDATA
 @INTLTOOL_SCHEMAS_RULE@
 
 install-data-local:
-      	if test -z "$(DESTDIR)" ; then \
-        for p in $(schema_DATA) ; do \
-        GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/$$p; \
-        done \
-        fi
+	if test -z "$(DESTDIR)" ; then \
+	for p in $(schema_DATA) ; do \
+	GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $(top_builddir)/$$p; \
+	done \
+	fi
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
