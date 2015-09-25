@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkblot 0.99.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-27 06:20+0100\n"
+"PO-Revision-Date: 2007-03-12 06:47+0300\n"
+"Last-Translator: Alexandre Prokoudine <alexandre.prokoudine@gmail.com>\n"
+"Language-Team: GNOME Cyrillic <gnome-cyr@lists.gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: src/eggtrayicon.c:118
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: src/eggtrayicon.c:119
+msgid "The orientation of the tray."
+msgstr "Ориентация лотка"
+
+#: src/main.c:104
+msgid "Ink level: high"
+msgstr "Уровень чернил: высокий"
+
+#: src/main.c:107
+msgid "Ink level: medium"
+msgstr "Уровень чернил: средний"
+
+#: src/main.c:110
+msgid "Ink level: low"
+msgstr "Уровень чернил: низкий"
+
+#: src/main.c:113
+msgid "Printer off or ink empty"
+msgstr "Принтер выключен, либо чернила кончились"
+
+#: src/main.c:116
+msgid "Error: problem with printer"
+msgstr "Ошибка: неполадки в принтере"
+
+#: src/main.c:383
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and restart Inkblot."
+msgstr ""
+"Поддерживаемые принтеры не найдены.\n"
+"\n"
+"Проверьте принтер, его кабели и повторно запустите Inkblot."
+
+#: src/main.c:390
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and scan for printers again."
+msgstr ""
+"Поддерживаемые принтеры не найдены.\n"
+"\n"
+"Проверьте принтер, его кабели и повторно запустите сканирование принтеров."
+
+#: src/main.c:397
+msgid ""
+"Inkblot was not installed correctly\n"
+"and the inkblot.glade file could not be found."
+msgstr ""
+"Программа Inkblot не была корректно установлена,\n"
+"и файл inkblot.glade не найден."
+
+#: src/main.c:404
+msgid ""
+"Inkblot got an invalid response from the printer.\n"
+"\n"
+"Please check your printer and check the libinklevel homepage if your printer "
+"is supported."
+msgstr ""
+
+#: src/main.c:412
+msgid "An unexpected error occurred."
+msgstr "Произошла ошибка."
+
+#: src/main.c:419
+msgid "Inkblot Error"
+msgstr "Ошибка Inkblot"
+
+#: src/detect.c:72
+msgid "Choose Printer Not Implemented"
+msgstr "Функция выбора принтера пока не реализована"
+
+#: src/detect.c:81
+msgid "parallel port"
+msgstr "Параллельный порт"
+
+#: src/detect.c:83
+msgid "USB"
+msgstr "USB"
+
+#: src/detect.c:86
+#, c-format
+msgid ""
+"Found <i>%s</i> %s printer on %s\n"
+"\n"
+"Inkblot will report the ink level on this device."
+msgstr ""
+"Найден <i>%s</i> %s принтер на %s\n"
+"\n"
+"Inkblot будет показывать отчёт об уровне чернил в нём."
+
+#: src/detect.c:96
+msgid "Printer Detection Complete"
+msgstr "Определение принтера завершено"
+
+#: src/detect.c:99
+msgid "Inkblot Setup"
+msgstr "Настройка Inkblot"
+
+#: src/menu.c:48
+msgid "Reports on your printer ink levels.\n"
+msgstr "Выводит отчёт об уровне чернил в вашем принтере.\n"
+
+#: src/menu.c:72
+msgid "Rescan Printer Devices"
+msgstr "Повторно просканировать устройства принтеров"
+
+#: src/menu.c:81
+msgid "About Inkblot"
+msgstr "Об Inkblot"
+
+#: src/menu.c:89
+msgid "Exit Inkblot"
+msgstr "Выйти из Inkblot"
+
+#: inkblot.schemas.in.h:1
+msgid "1 = Parallel Port, 2 = USB"
+msgstr "1 = параллельный порт, 2 = USB"
+
+#: inkblot.schemas.in.h:2
+msgid ""
+"If this key is set, inkblot will try to find new devices and will set up the "
+"other keys."
+msgstr ""
+
+#: inkblot.schemas.in.h:3
+msgid "libinklevel bus type"
+msgstr "тип шины libinklevel"
+
+#: inkblot.schemas.in.h:4
+msgid "libinklevel config indicator"
+msgstr ""
+
+#: inkblot.schemas.in.h:5
+msgid "libinklevel port number"
+msgstr "номер порта libinklevel"
+
+#: inkblot.schemas.in.h:6
+msgid "the number of the lp port - ie. 0 = lp0"
+msgstr "номер порта lp —  т.е. 0 = lp0"
+
+#: inkblot.desktop.in.h:1
+msgid "Check your printer ink cartridge levels"
+msgstr "Проверка уровня чернил в картриджах принтера"
+
+#: inkblot.desktop.in.h:2
+msgid "Inkblot"
+msgstr "Inkblot"
+
+#: inkblot.desktop.in.h:3
+msgid "Printer Ink Level Monitor"
+msgstr "Слежение за уровнем чернил в принтере"

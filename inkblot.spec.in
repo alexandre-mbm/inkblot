@@ -1,0 +1,57 @@
+%define ver @VERSION@
+%define rel 1
+
+Summary: A status icon and dialog shower printer ink levels.
+Name: inkblot
+Version: %{ver}
+Release: %{rel}
+License: GPL
+Group: Applications/System
+Source: http://www.greatnorthern.demon.co.uk/packages/inkblot/inkblot-%{ver}.tar.gz
+BuildRoot: /var/tmp/%{name}-%{version}-root
+Vendor: Principia Systems
+Packager: Mike Newman <mikegtn@gnome.org>
+
+%define prefix /usr
+%define sysconfdir /etc
+
+%description
+Detects installed printer and reports on levels of ink cartridges.
+
+%prep
+%setup
+
+%build
+if [ ! -f configure ]; then
+  CFLAGS="$RPM_OPT_FLAGS" ./autogen.sh $ARCH_FLAGS --prefix=%{prefix} --sysconfdir=%{sysconfdir}
+else
+  CFLAGS="$RPM_OPT_FLAGS" ./configure $ARCH_FLAGS --prefix=%{prefix} --sysconfdir=%{sysconfdir}
+fi
+
+if [ "$SMP" != "" ]; then
+  (make "MAKE=make -k -j $SMP"; exit 0)
+  make
+else
+  make
+fi
+
+%install
+make prefix=$RPM_BUILD_ROOT%{prefix} sysconfdir=$RPM_BUILD_ROOT%{sysconfdir} install
+
+%post
+GCONF_CONFIG_SOURCE=`gconftool-2 --get-default-source` gconftool-2 --makefile-install-rule %{_sysconfdir}/gconf/schemas/inkblot.schemas
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-, root, root)
+
+%doc AUTHORS TODO README NEWS ChangeLog
+%{prefix}/bin/*
+%{_sysconfdir}/gconf/schemas/*
+%{prefix}/share/inkblot/*
+%{prefix}/share/pixmaps/*
+%{prefix}/share/inkblot/pixmaps/*
+%{prefix}/share/applications/*
+%{prefix}/share/locale/*/LC_MESSAGES/*.mo

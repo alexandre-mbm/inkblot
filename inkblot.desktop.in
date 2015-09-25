@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Inkblot
+_GenericName=Printer Ink Level Monitor
+_Comment=Check your printer ink cartridge levels
+Exec=inkblot
+Terminal=false
+Type=Application
+Icon=inkblot.png
+StartupNotify=false
+Categories=Application;System;Utility;
+Encoding=UTF-8

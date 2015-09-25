@@ -1,0 +1,13 @@
+Inkblot - the GNOME printer ink level tool
+
+Dependencies:
+
+	- GNOME 2.4.x or newer
+	- libinklevel (http://libinklevel.sf.net)
+	- libieee1284 (http://cyberelk.net/tim/libieee1284/)
+
+Features
+
+	- status icon indicating overall ink level status
+	- dialog recording % level for black/color
+	- support for separate CMYK levels where detected

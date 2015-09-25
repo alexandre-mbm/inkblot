@@ -1,0 +1,9 @@
+glade/inkblot.glade
+src/eggtrayicon.h
+src/eggtrayicon.c
+src/main.c
+src/detect.c
+src/menu.c
+src/inkblot.h
+inkblot.schemas.in
+inkblot.desktop.in

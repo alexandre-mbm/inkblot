@@ -1,0 +1,191 @@
+# translation of de_DE.po to german
+# German translation of the inkblot.
+# Copyright (C) 2007
+# This file is distributed under the same license as the inkblot package.
+#
+# Christoph Brill <egore911@egore911.de>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: de_DE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-27 06:20+0100\n"
+"PO-Revision-Date: 2007-01-07 15:02+0100\n"
+"Last-Translator: Christoph Brill <egore911@egore911.de>\n"
+"Language-Team: german <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/eggtrayicon.c:118
+msgid "Orientation"
+msgstr "Ausrichtung"
+
+#: src/eggtrayicon.c:119
+msgid "The orientation of the tray."
+msgstr "Ausrichtung im Benachrichtigungsfeld."
+
+#: src/main.c:104
+msgid "Ink level: high"
+msgstr "Tintenfüllstand: hoch"
+
+#: src/main.c:107
+msgid "Ink level: medium"
+msgstr "Tintenfüllstand: mittel"
+
+#: src/main.c:110
+msgid "Ink level: low"
+msgstr "Tintenfüllstand: gering"
+
+#: src/main.c:113
+msgid "Printer off or ink empty"
+msgstr "Drucker ist aus oder Tinte ist alle"
+
+#: src/main.c:116
+msgid "Error: problem with printer"
+msgstr "Fehler: Druckerproblem"
+
+#: src/main.c:383
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and restart Inkblot."
+msgstr ""
+"Keine unterstützten Drucker gefunden\n"
+"\n"
+"Bitte prüfen sie ihren Drucker und ihre Kabel und starten sie anschließend "
+"Inkblot neu."
+
+#: src/main.c:390
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and scan for printers again."
+msgstr ""
+"Keine unterstützten Drucker gefunden\n"
+"\n"
+"Bitte prüfen sie ihren Drucker und ihre Kabel und suchen anschließend erneut "
+"nach Druckern."
+
+#: src/main.c:397
+msgid ""
+"Inkblot was not installed correctly\n"
+"and the inkblot.glade file could not be found."
+msgstr ""
+"Inkblot wurde nicht ordnungsgemäß installiert.\n"
+" Es konnte die Datei inkblot.glade nicht finden."
+
+#: src/main.c:404
+msgid ""
+"Inkblot got an invalid response from the printer.\n"
+"\n"
+"Please check your printer and check the libinklevel homepage if your printer "
+"is supported."
+msgstr ""
+"Inkblot erhielt eine ungültige Anwort vom Drucker.\n"
+"\n"
+"Bitte prüfen sie ihren Drucker und überprüfen sie auf der Internetseite von "
+"libinklevel ob ihr Drucker unterstützt wird."
+
+#: src/main.c:412
+msgid "An unexpected error occurred."
+msgstr "Ein unerwarteter Fehler ist aufgetreten."
+
+#: src/main.c:419
+msgid "Inkblot Error"
+msgstr "Inkblot Fehler"
+
+#: src/detect.c:72
+msgid "Choose Printer Not Implemented"
+msgstr "Drucker wählen ist nocht nicht implementiert."
+
+#: src/detect.c:81
+msgid "parallel port"
+msgstr "Paralleler Port"
+
+#: src/detect.c:83
+msgid "USB"
+msgstr "USB"
+
+#: src/detect.c:86
+#, c-format
+msgid ""
+"Found <i>%s</i> %s printer on %s\n"
+"\n"
+"Inkblot will report the ink level on this device."
+msgstr ""
+"Drucker <i>%s</i> %s wurde an %s gefunden.\n"
+"\n"
+"Inkblot wird den Tintenfüllstand für diesen Drucker melden."
+
+#: src/detect.c:96
+msgid "Printer Detection Complete"
+msgstr "Druckersuche abgeschlossen"
+
+#: src/detect.c:99
+msgid "Inkblot Setup"
+msgstr "Inkblot einrichten"
+
+#: src/menu.c:48
+msgid "Reports on your printer ink levels.\n"
+msgstr "Prüft den Tintenfüllstand ihres Druckers.\n"
+
+#: src/menu.c:72
+msgid "Rescan Printer Devices"
+msgstr "Druckersuche durchführen"
+
+#: src/menu.c:81
+msgid "About Inkblot"
+msgstr "Über Inkblot"
+
+#: src/menu.c:89
+msgid "Exit Inkblot"
+msgstr "Inkblot beenden"
+
+#: inkblot.schemas.in.h:1
+msgid "1 = Parallel Port, 2 = USB"
+msgstr "1 = Paralleler Port, 2 = USB"
+
+#: inkblot.schemas.in.h:2
+msgid ""
+"If this key is set, inkblot will try to find new devices and will set up the "
+"other keys."
+msgstr ""
+"Wenn dieser Schlüssel gesetzt ist, versucht inkblot neue Geräte zu finden "
+"und wird andere Schlüssel setzen."
+
+#: inkblot.schemas.in.h:3
+msgid "libinklevel bus type"
+msgstr "libinklevel Bus-Typ"
+
+#: inkblot.schemas.in.h:4
+msgid "libinklevel config indicator"
+msgstr "libinklevel Konfigurationsindikator"
+
+#: inkblot.schemas.in.h:5
+msgid "libinklevel port number"
+msgstr "libinklevel Portnummer"
+
+#: inkblot.schemas.in.h:6
+msgid "the number of the lp port - ie. 0 = lp0"
+msgstr "Die Nummer des Druckersports - z.B. 0 = lp0"
+
+#: inkblot.desktop.in.h:1
+msgid "Check your printer ink cartridge levels"
+msgstr "Prüft den Füllstand ihrer Druckertinte"
+
+#: inkblot.desktop.in.h:2
+msgid "Inkblot"
+msgstr "Inkblot"
+
+#: inkblot.desktop.in.h:3
+msgid "Printer Ink Level Monitor"
+msgstr "Tintenfüllstands-Monitor"
+
+#~ msgid "10%"
+#~ msgstr "10%"
+
+#~ msgid "Colour Details"
+#~ msgstr "Farbdetails"
+
+#~ msgid "Inkblot Printer Monitor"
+#~ msgstr "Inkblot Druckermonitor"

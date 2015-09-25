@@ -1,0 +1,61 @@
+2007-10-06	Stian Jordet <stian@jordet.net>
+
+		* eggtrayicon.c: tray icon support for transparent panels.
+
+2007-03-18	Pasi Sakala <lemonade@pasimaa.org>
+
+		* po/fi.po: Finnish translation.
+
+2007-03-17	Mike Newman <mike@mikegtn.net>
+
+		* AUTHORS, src/main.c: Add Thierry Merle as co-author.
+		* configure.in: Test for at least libinklevel 0.7.0.
+
+2007-03-17	Alexandre Prokoudine <alexandre.prokoudine@gmail.com>
+
+		* po/ru.po: Russian translation.
+
+2007-03-17	Daniel Nylander <info@danielnylander.se>
+
+		* po/sv.po: Swedish translation.
+
+2007-03-14	Thierry MERLE <thierry.merle@free.fr>
+
+		* src/main.c, src/detect.c : resynchronization on the new
+		libinklevel API (since 0.7.0 that supports canon printers)
+		* po/fr_FR.po: French translation
+		* po/de_DE.po: German translation
+
+2007-03-10	Thierry MERLE <thierry.merle@free.fr>
+
+		* all : resynchronization on the new libinklevel API (since
+		0.6.6rc4 that supports canon printers)
+
+2004-07-04	Mike Newman <mikegtn@gnome.org>
+		
+		* src/menu.c, src/main.c: added tray icon menu, about dialog,
+		rescan devices etc.
+
+2004-07-01	Mike Newman <mikegtn@gnome.org>
+	
+		* src/main.c, src/inkblot.h, src/detect.c: code cleanup.
+
+2004-06-30	Mike Newman <mikegtn@gnome.org>
+
+		* src/main.c, src/iinkblot.h: add tooltips, try to distinguish
+		between errors and emptiness.
+
+2004-06-29	Mike Newman <mikegtn@gnome.org>
+
+		* src/main.c: if no colour level, use mean of CMY values. Also
+		give some basic error feedback.
+		* src/detect/c: initial work on detecting devices. Now finds
+		attached printers, and sets up gconf with prefs.
+		* inkblot.schemas: gconf keys necessary for prefs.
+		
+
+2004-06-28	Mike Newman <mikegtn@gnome.org>
+
+		Initial functional release. Includes periodic status icon
+		update, support for CMYK colours if detected, detection of
+		error condition, etc.

@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.99.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-27 06:20+0100\n"
+"PO-Revision-Date: 2004-07-03 09:16+0100\n"
+"Last-Translator: Mike Newman <mikegtn@gnome.org>\n"
+"Language-Team: English <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/eggtrayicon.c:118
+msgid "Orientation"
+msgstr "Orientation"
+
+#: src/eggtrayicon.c:119
+msgid "The orientation of the tray."
+msgstr "The orientation of the tray."
+
+#: src/main.c:104
+msgid "Ink level: high"
+msgstr ""
+
+#: src/main.c:107
+msgid "Ink level: medium"
+msgstr ""
+
+#: src/main.c:110
+msgid "Ink level: low"
+msgstr ""
+
+#: src/main.c:113
+msgid "Printer off or ink empty"
+msgstr ""
+
+#: src/main.c:116
+msgid "Error: problem with printer"
+msgstr ""
+
+#: src/main.c:383
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and restart Inkblot."
+msgstr ""
+
+#: src/main.c:390
+msgid ""
+"No supported printers found.\n"
+"\n"
+"Please check your printer and cables and scan for printers again."
+msgstr ""
+
+#: src/main.c:397
+msgid ""
+"Inkblot was not installed correctly\n"
+"and the inkblot.glade file could not be found."
+msgstr ""
+
+#: src/main.c:404
+msgid ""
+"Inkblot got an invalid response from the printer.\n"
+"\n"
+"Please check your printer and check the libinklevel homepage if your printer "
+"is supported."
+msgstr ""
+
+#: src/main.c:412
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: src/main.c:419
+#, fuzzy
+msgid "Inkblot Error"
+msgstr "Inkblot"
+
+#: src/detect.c:72
+msgid "Choose Printer Not Implemented"
+msgstr ""
+
+#: src/detect.c:81
+msgid "parallel port"
+msgstr ""
+
+#: src/detect.c:83
+msgid "USB"
+msgstr ""
+
+#: src/detect.c:86
+#, c-format
+msgid ""
+"Found <i>%s</i> %s printer on %s\n"
+"\n"
+"Inkblot will report the ink level on this device."
+msgstr ""
+
+#: src/detect.c:96
+msgid "Printer Detection Complete"
+msgstr ""
+
+#: src/detect.c:99
+#, fuzzy
+msgid "Inkblot Setup"
+msgstr "Inkblot"
+
+#: src/menu.c:48
+#, fuzzy
+msgid "Reports on your printer ink levels.\n"
+msgstr "Check your printer ink cartridge levels"
+
+#: src/menu.c:72
+msgid "Rescan Printer Devices"
+msgstr ""
+
+#: src/menu.c:81
+#, fuzzy
+msgid "About Inkblot"
+msgstr "Inkblot"
+
+#: src/menu.c:89
+#, fuzzy
+msgid "Exit Inkblot"
+msgstr "Inkblot"
+
+#: inkblot.schemas.in.h:1
+msgid "1 = Parallel Port, 2 = USB"
+msgstr "1 = Parallel Port, 2 = USB"
+
+#: inkblot.schemas.in.h:2
+msgid ""
+"If this key is set, inkblot will try to find new devices and will set up the "
+"other keys."
+msgstr ""
+"If this key is set, inkblot will try to find new devices and will set up the "
+"other keys."
+
+#: inkblot.schemas.in.h:3
+msgid "libinklevel bus type"
+msgstr "libinklevel bus type"
+
+#: inkblot.schemas.in.h:4
+msgid "libinklevel config indicator"
+msgstr "libinklevel config indicator"
+
+#: inkblot.schemas.in.h:5
+msgid "libinklevel port number"
+msgstr "libinklevel port number"
+
+#: inkblot.schemas.in.h:6
+msgid "the number of the lp port - ie. 0 = lp0"
+msgstr "the number of the lp port - ie. 0 = lp0"
+
+#: inkblot.desktop.in.h:1
+msgid "Check your printer ink cartridge levels"
+msgstr "Check your printer ink cartridge levels"
+
+#: inkblot.desktop.in.h:2
+msgid "Inkblot"
+msgstr "Inkblot"
+
+#: inkblot.desktop.in.h:3
+msgid "Printer Ink Level Monitor"
+msgstr "Printer Ink Level Monitor"
